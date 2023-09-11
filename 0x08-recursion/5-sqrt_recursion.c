@@ -14,8 +14,8 @@ int sub_method(int n, int x)
 		return (0);
 	if (n < 0)
 		return (-1);
-	n = n-x;
-	return(1 + sub_method(n, x + 2));
+	n = n - x;
+	return (1 + sub_method(n, x + 2));
 }
 
 /**
@@ -24,11 +24,11 @@ int sub_method(int n, int x)
  * @n: given number
  * Return: if n is not natural, return -1
  */
-int _sqrt_recursion(int n)
+int _sqrt_recursion (int n)
 {
-	int sqrt = sub_method(n, 1);
+	int sqrt = sub_method (n, 1);
 
-	if(sqrt * sqrt == n)
-		return(sqrt);
-	return(-1);
+	if (sqrt * sqrt == n)
+		return (sqrt);
+	return (-1);
 }
