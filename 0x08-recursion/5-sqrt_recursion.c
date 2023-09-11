@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  _sqrt_recursion - the program should subctract in orderto find root
+ *  sub_method - the program should subctract in order to find root
  * 
  * @n: given number
  * @x: number that will be used to subctract
@@ -24,9 +24,9 @@ int sub_method(int n, int x)
  * @n: given number
  * Return: if n is not natural, return -1
  */
-int _sqrt_recursion (int n)
+int _sqrt_recursion(int n)
 {
-	int sqrt = sub_method (n, 1);
+	int sqrt = sub_method(n, 1);
 
 	if (sqrt * sqrt == n)
 		return (sqrt);
