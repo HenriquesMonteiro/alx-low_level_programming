@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * sub_method - the program should subctract in order to find root 
+ * sub_method - the program should subctract in order to find root
  * @n: given number
  * @x: number that will be used to subctract
  *
