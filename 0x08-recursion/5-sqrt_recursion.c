@@ -26,9 +26,9 @@ int sub_method(int n, int x)
  */
 int _sqrt_recursion(int n)
 {
-	int sqrt = sub-method(n, 1);
+	int sqrt = sub_method(n, 1);
 
-	if(sqrt * sqrt = n)
+	if(sqrt * sqrt == n)
 		return(sqrt);
 	return(-1);
 }
